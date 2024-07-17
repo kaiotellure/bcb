@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As Crônicas de Gelo e Fogo - A Guerra dos Tronos</title>
+</head>
+
+<body class="list gap-long">
+    <div class="list text-small">
+        <span class="muted">Créditos: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte, Bei Ribeiro, André
+            Albert, Ricardo Nakamiti, Osmane Garcia Filho, Marc Simonetti, Jorge Candeias e EDITORA: Leya.</span>
+        <span class="muted">
+            Dica: Selecione uma frase ou palavra e aperte 'w' ou 'g' para ir à Wiki ou ao Google.<br />
+            Dica: Clique no número à esquerda da linha para salva-lá como ponto de retorno.
+        </span>
+        <span class="muted">
+            <a target="_blank" href="https://www.github.com/ikaio">Mais Livros</a> —
+            <a target="_blank" href="https://i.redd.it/5sru7d8owzh21.jpg">Mapa de Westeros (4K)</a>
+        </span>
+        <img id="logo" src="$$LOGO$$">
+    </div>
+    <div class="list reader">
+        $$LINES$$
+    </div>
+</body>
+
+<script defer>
+    const google_search_url = `https://www.google.com/search?q=significado+de+`;
+    const wiki_search_url = `https://wiki.geloefogo.com/index.php?search=`;
+    /* const chapters = document.querySelectorAll(".reader > .chapter");
+    const ambience_audio = new Audio();
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ambience_audio.src = entry.target.dataset.sound;
+                ambience_audio.volume = .20; ambience_audio.loop = true; ambience_audio.play();
+            }
+        });
+    });
+
+    [...chapters].forEach(chapter => observer.observe(chapter)); */
+
+    document.addEventListener("keyup", e => {
+        const url = e.key == "w" ? wiki_search_url : e.key == "g" ? google_search_url : null;
+        if (!url) return; e.preventDefault();
+
+        const selection = document.getSelection().toString().trim();
+        selection.length > 2 && window.open(`${url}${selection}`);
+    });
+
+    function gotoline(index) {
+        const pureurl = window.location.href.split(/[?#]/)[0];
+        location.replace(pureurl + "#" + index);
+    }
+
+    function save(index) {
+        localStorage.setItem("current_line", index);
+        gotoline(index);
+    }
+
+    const last_line = localStorage.getItem("current_line");
+    if (last_line) gotoline(last_line);
+</script>
+
+<style>
+    body {
+        background: rgb(20, 20, 20);
+        color: white;
+        font-family: sans-serif;
+        padding: 5vh 10vw;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .queue {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .gap-long {
+        gap: 5vh;
+    }
+
+    .line,
+    .text,
+    a {
+        color: khaki;
+        text-decoration: none;
+    }
+
+    .line,
+    .text {
+        font-size: 1.6rem;
+    }
+
+    .index {
+        font-size: 1rem;
+        font-weight: bold;
+        opacity: 0.25;
+        margin: 0 1vw;
+    }
+
+    .muted {
+        opacity: 0.5;
+    }
+
+    #logo {
+        width: 30vw;
+        margin-top: 5vh;
+    }
+
+    .text-small {
+        font-size: 1rem;
+    }
+
+    .line {
+        display: flex;
+        align-items: baseline;
+    }
+</style>
+
+</html>
