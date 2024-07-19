@@ -12,7 +12,7 @@
         <span class="muted">Créditos: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte, Bei Ribeiro, André
             Albert, Ricardo Nakamiti, Osmane Garcia Filho, Marc Simonetti, Jorge Candeias e EDITORA: Leya.</span>
         <span class="muted">
-            Dica: Selecione uma frase ou palavra e aperte 'w' ou 'g' para ir à Wiki ou ao Google.<br />
+            Dica: Selecione uma nome ou palavra para ir à Wiki ou ao Google. (CTRL impede a pesquisa)<br />
             Dica: Clique no número à esquerda da linha para salva-lá como ponto de retorno.
         </span>
         <span class="muted">
@@ -27,28 +27,22 @@
 </body>
 
 <script defer>
-    const google_search_url = `https://www.google.com/search?q=significado+de+`;
-    const wiki_search_url = `https://wiki.geloefogo.com/index.php?search=`;
-    /* const chapters = document.querySelectorAll(".reader > .chapter");
-    const ambience_audio = new Audio();
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                ambience_audio.src = entry.target.dataset.sound;
-                ambience_audio.volume = .20; ambience_audio.loop = true; ambience_audio.play();
-            }
-        });
-    });
+    const URLS = {
+        google: `https://www.google.com/search?q=significado+de+`,
+        wiki: `https://wiki.geloefogo.com/index.php?search=`
+    }
 
-    [...chapters].forEach(chapter => observer.observe(chapter)); */
+    document.addEventListener("mouseup", e => {
+        if (e.ctrlKey) return;
 
-    document.addEventListener("keyup", e => {
-        const url = e.key == "w" ? wiki_search_url : e.key == "g" ? google_search_url : null;
-        if (!url) return; e.preventDefault();
+        const selection = document.getSelection();
+        const text = selection.toString().trim();
 
-        const selection = document.getSelection().toString().trim();
-        selection.length > 2 && window.open(`${url}${selection}`);
+        if (text.length != 0) {
+            const url = text[0] == text[0].toUpperCase() ? URLS.wiki : URLS.google;
+            selection.empty(); window.open(`${url}${text}`);
+        }
     });
 
     function gotoline(index) {
