@@ -8,22 +8,6 @@ import (
 	"strings"
 )
 
-func isUpper(b byte) bool {
-	return string(b) == strings.ToUpper(string(b))
-}
-
-func isNewLine(char rune) bool {
-	return char == 10 || char == 13 || char == '\n' || char == '\r'
-}
-
-func isSpace(char rune) bool {
-	return char == 32 || char == ' '
-}
-
-func isQuote(char rune) bool {
-	return char == '“' || char == '”' || char == '"'
-}
-
 func dataUri(path, mime string) string {
 	b, err := os.ReadFile(path)
 	if err != nil {
