@@ -5,29 +5,29 @@ import (
 	"strings"
 )
 
-type ToHTML struct {
+type HTMLInterpreter struct {
 	lines      string
 	line_count int
 	odd        bool
 }
 
-func (i *ToHTML) GetDocument() string {
+func (i *HTMLInterpreter) GetDocument() string {
 	return remap(map[string]string{
 		"$$LOGO$$":  dataUri("./assets/images/logo.png", "image/jpg"),
 		"$$LINES$$": i.lines,
 	}, readFile("./assets/template.html"))
 }
 
-func (i *ToHTML) parseCommand(line string) (string, []string) {
+func (i *HTMLInterpreter) parseCommand(line string) (string, []string) {
 	splitted := strings.Split(line, ":")
 	return splitted[0][1:], splitted[1:]
 }
 
-func (i *ToHTML) insert(line string) {
+func (i *HTMLInterpreter) insert(line string) {
 	i.lines += line
 }
 
-func (i *ToHTML) Feed(line string) {
+func (i *HTMLInterpreter) Feed(line string) {
 
 	if strings.HasPrefix(line, "$") {
 		command, args := i.parseCommand(line)
@@ -61,7 +61,7 @@ const CHAPTER_MODEL = `
 	<img style="width: 5vw; rotate: 180deg;" src="$$ORNAMENT$$">
 </div>`
 
-func (i *ToHTML) uiChapter(title string) string {
+func (i *HTMLInterpreter) uiChapter(title string) string {
 	return remap(map[string]string{
 		"$$TITLE$$":    title,
 		"$$ORNAMENT$$": dataUri("./assets/images/ornament.svg", "image/svg+xml"),

@@ -1,4 +1,4 @@
-# Useful Commands
+to parse, interpret and render an `input.txt` file to an `out.html` file, run:
 ```cli
-go run . --html ./texts/revision.txt > out.html
+bookify.exe render ./texts/revision.txt
 ```

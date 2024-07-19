@@ -11,7 +11,7 @@ func main() {
 
 	switch flag.Arg(0) {
 	case "render":
-		interpreter := ToHTML{}
+		interpreter := HTMLInterpreter{}
 		NewParser(content, &interpreter).Process()
 		os.WriteFile("out.html", []byte(interpreter.GetDocument()), 0644)
 	default:
