@@ -1,3 +1,4 @@
 *.exe
-*.txt
+*original.txt
+*sample.txt
 out*

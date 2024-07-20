@@ -50,32 +50,49 @@ func (p *Parser) append() {
 
 func (p *Parser) Process() {
 	p.l = len(p.content)
+	var insideCommand bool
+
 	for {
 		var shouldUpdatePrevious bool = true
 		char := p.char()
 
-		switch char {
-		case '-':
-			if len(p.clip) == 0 || (p.at(p.i+1) == ' ' && p.previous == ' ') {
-				p.content[p.i] = '—'
-			}; p.append()
-		case '\n', 13:
-			// ignore new lines
-			shouldUpdatePrevious = false
-		case '.':
-			if p.spaces > 10 {
-				p.append()
+		if insideCommand {
+			switch char {
+			case '$':
 				p.cut()
-				p.spaces = 0
-			}
-		case ' ':
-			if p.previous != ' ' {
-				p.spaces++
+				insideCommand = false
+			default:
 				p.append()
 			}
-		default:
-			p.append()
+		} else {
+			switch char {
+			case '$':
+				p.append()
+				insideCommand = true
+			case '-':
+				if len(p.clip) == 0 || (p.at(p.i+1) == ' ' || p.at(p.i+1) == ',' && p.previous == ' ') {
+					p.content[p.i] = '—'
+				}
+				p.append()
+			case '\n', 13:
+				// ignore new lines
+				shouldUpdatePrevious = false
+			case '.':
+				p.append()
+				if p.spaces > 15 && p.at(p.i+1) != '.' {
+					p.cut()
+					p.spaces = 0
+				}
+			case ' ':
+				if p.previous != ' ' && len(p.clip) != 0 {
+					p.spaces++
+					p.append()
+				}
+			default:
+				p.append()
+			}
 		}
+
 		if shouldUpdatePrevious {
 			p.previous = char
 		}
