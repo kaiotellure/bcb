@@ -8935,7 +8935,7 @@ enquanto Gordo Tom bufava de irritação atrás dela.
 Seu quarto era o único lugar de que Arya gostava em todo o Porto Real, e aquilo de que gostava 
 mais nele era a porta, uma maciça prancha de carvalho escuro com reforços negros de ferro. 
 Quando batia aquela porta e deixava cair a pesada tranca, ninguém podia entrar naquele quarto, 
-nem Septã Mordane, nem Gordo Tom, nem Sansa, nem Jory, nem o Cão de Caça, ninguém ! E a 
+nem Septã Mordane, nem Gordo Tom, nem Sansa, nem Jory, nem o Cão de Caça, ninguém! E a 
 batia. 
 
 Depois de a tranca cair, Arya sentiu-se por fim suficientemente em segurança para chorar. Foi 
@@ -8946,7 +8946,7 @@ Gordo Tom batia à porta.
 
 - Menina Arya, o que houve? - gritou. - Está aí? 
 
-- Não\ - gritou Arya. As batidas pararam. Um momento mais tarde, ouviu-o partir. Gordo Tom 
+- Não! - gritou Arya. As batidas pararam. Um momento mais tarde, ouviu-o partir. Gordo Tom 
 era sempre fácil de enganar. 
 
 Arya dirigiu-se à arca que tinha aos pés da cama. Ajoelhou-se, abriu o tampo e começou a tirar 
@@ -8961,13 +8961,13 @@ Se não tivesse pedido a ele para brincar de espadas...
 
 Ouviu-se uma batida na porta, mais alta que antes. 
 
--Arya Stark, abra esta porta imediatamente, está ouvindo? 
+- Arya Stark, abra esta porta imediatamente, está ouvindo? 
 
 Arya rodopiou, com Agulha na mão. 
 
 - É melhor não entrar aqui! - preveniu, e golpeou o ar ferozmente. 
 
--A Mão ouvirá falar disto! - encolerizou-se Septã Mordane. 
+- A Mão ouvirá falar disto! - encolerizou-se Septã Mordane. 
 
 - Não me importa - gritou Arya. - Vá embora. 
 
@@ -9230,9 +9230,7 @@ ultrapassava o horizonte distante. Foi um mar, pensou Dany. Para lá do lugar on
 havia colinas nem montanhas, nem árvores, cidades ou estradas, apenas a mata sem fim, cujas 
 folhas altas ondulavam como ondas quando o vento soprava. 
 
-r 
-
-- E tão verde - ela admirou. 
+- É tão verde - ela admirou. 
 
 - Aqui e agora - concordou Sor Jorah. - Tem de vê-lo quando floresce, flores vermelhas 
 escuras de horizonte a horizonte, como um mar de sangue. E quando chega a estação seca, o 
@@ -9322,7 +9320,7 @@ tivessem escutado e tivessem se apiedado. Até as criadas repararam na mudança.
 
 - Estava - ela respondeu, em pé junto aos ovos de dragão que Illyrio lhe oferecera quando se 
 casara. Tocou um deles, o maior dos três, fazendo correr a mão sobre a casca. Negro e escarlate, 
-pensou, como o dragão no meu sonho. Apedra parecia estranhamente quente sob seus dedos... ou 
+pensou, como o dragão no meu sonho. A pedra parecia estranhamente quente sob seus dedos... ou 
 estaria ainda sonhando? Retirou a mão, nervosamente. 
 
 Daquele momento em diante, cada dia foi mais fácil que o anterior. As pernas ficaram mais 
@@ -9585,13 +9583,13 @@ Jade. Talvez alguns ainda vivessem ali, em reinos estranhos e selvagens.
 - Estão mortos - concordou Jhiqui. - Há muitos, muitos anos. 
 
 Viserys dissera-lhe que não fazia mais de século e meio que os últimos dragões Targaryen 
-tinham morrido, durante o reinado de Aegon m, conhecido como Desgraça dos Dragões. E, para 
+tinham morrido, durante o reinado de Aegon III, conhecido como Desgraça dos Dragões. E, para 
 ela, não parecia tanto tempo assim. 
 
 - Em toda a parte? - perguntou, desapontada. - Mesmo no Leste? - a magia morrera no Oeste 
 quando a Perdição caíra sobre Valíria e as Terras do Longo Verão, e nem o aço forjado com 
 feitiços, nem os cantores de tempestade, nem os dragões conseguiram afastá-la, mas Dany sempre 
-ouvira dizer que o Leste era diferente. Diziam que manticoras 1 percorriam as ilhas do Mar de Jade, 
+ouvira dizer que o Leste era diferente. Diziam que manticoras percorriam as ilhas do Mar de Jade, 
 que basiliscos infestavam as selvas de Yi Ti, que encantadores, feiticeiros e aeromantes 
 praticavam abertamente suas artes em Asshai, ao passo que magos negros e de sangue elaboravam 
 terríveis feitiçarias na escuridão da noite. Por que não haveria de ter também dragões? 
@@ -9671,7 +9669,7 @@ Isso aconteceu no décimo quarto dia do seu nome.
 $CHAPTER: Bran IV$ 
 
 
-N o pátio, lá embaixo, Rickon corria com os lobos. 
+No pátio, lá embaixo, Rickon corria com os lobos. 
 
 Bran observava, sentado diante da janela. Onde quer que seu irmão fosse. Vento Cinzento 
 estava lá primeiro, saltando na frente para lhe cortar o caminho, até que Rickon o via, gritava de 
