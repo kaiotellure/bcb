@@ -32,6 +32,9 @@ func (p *Parser) next() bool {
 }
 
 func (p *Parser) cut() {
+	if len(p.clip) == 0 {
+		return
+	}
 	p.interpreter.Feed(p.clip)
 	p.clip = EMPTY_STRING
 }
@@ -67,6 +70,7 @@ func (p *Parser) Process() {
 		} else {
 			switch char {
 			case '$':
+				p.cut()
 				p.append()
 				insideCommand = true
 			case '-':
@@ -75,6 +79,15 @@ func (p *Parser) Process() {
 				}
 				p.append()
 			case '\n', 13:
+				if p.previous == ' ' {
+					clipra := []rune(p.clip)
+					l := len(clipra)
+
+					if l > 2 && clipra[l-2] == '—' && clipra[l-3] != ' ' {
+						clipra[l-2] = '-'
+						p.clip = string(clipra[:l-1])
+					}
+				}
 				// ignore new lines
 				shouldUpdatePrevious = false
 			case '.':

@@ -56,7 +56,7 @@ func (i *HTMLInterpreter) Feed(line string) {
 const CHAPTER_MODEL = `
 <div class="chapter" style="margin: 5vh 0; gap: 1vw; display: flex; justify-content: space-around; align-items: center;">
 	<img style="width: 5vw;" src="$$ORNAMENT$$">
-	<span style="text-transform: uppercase; font-family: serif; font-weight: bold;" class="text">$$TITLE$$</span>
+	<span class="text">$$TITLE$$</span>
 	<div style="height: 1px; width: 100%; background: khaki;"></div>
 	<img style="width: 5vw; rotate: 180deg;" src="$$ORNAMENT$$">
 </div>`

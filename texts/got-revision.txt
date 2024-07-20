@@ -395,8 +395,7 @@ chuva de golpes, e recuou outra vez.
 
 
 Atrás dele, para a direita, para a esquerda, à sua volta, os observadores mantinham-se em pé, 
-pacientes, sem rosto, silenciosos, com os padrões mutáveis de suas delicadas armaduras a torná- 
-los quase invisíveis na floresta. Mas não faziam um gesto para intervir. 
+pacientes, sem rosto, silenciosos, com os padrões mutáveis de suas delicadas armaduras a torná-los quase invisíveis na floresta. Mas não faziam um gesto para intervir. 
 
 Uma vez e outra, as espadas encontraram-se, até Will querer tapar os ouvidos, protegendo-os do 
 estranho e angustiado lamento de seus choques. Sor Waymar já arquejava por causa do esforço, e 
@@ -460,7 +459,7 @@ como gelo.
 
 
 
-$CHAPTER: Bran$ 
+$CHAPTER: Bran I$ 
 
 
 A manhã chegara límpida e fria, com uma aspereza que sugeria o fim do verão. Partiram ao 
@@ -471,8 +470,7 @@ para ir com o senhor seu pai e os irmãos ver fazer-se a justiça do rei. Era o 
 sétimo da vida de Bran. 
 
 O homem tinha sido capturado no exterior de um pequeno povoado nos montes. Robb pensava 
-que se tratava de um selvagem, com a espada a serviço de Mance Rayder, o Rei-para-lá-da- 
-Muralha. Pensar nisso fazia a pele de Bran formigar. Lembrava-se das histórias que a Velha Ama 
+que se tratava de um selvagem, com a espada a serviço de Mance Rayder, o Rei-para-lá-da-Muralha. Pensar nisso fazia a pele de Bran formigar. Lembrava-se das histórias que a Velha Ama 
 lhes contava à lareira. Os selvagens eram homens cruéis, dizia, escravagistas, assassinos e ladrões. 
 Faziam amizade com gigantes e vampiros, raptavam meninas na calada da noite e bebiam sangue 
 em cornos polidos. E suas mulheres deitavam-se com os Outros durante a Longa Noite e geravam 
@@ -500,8 +498,7 @@ Stark de Winterfell.
 
 Questões foram colocadas e respostas foram dadas ali, no frio da manhã, mas, mais tarde, Bran 
 não recordaria muito do que fora dito. Por fim, o senhor seu pai deu uma ordem, e dois de seus 
-guardas arrastaram o homem esfarrapado até o toco de pau-ferro no centro da praça. Empurraram- 
-lhe a cabeça à força contra a madeira dura e negra. Lorde Eddard Stark desmontou, e seu 
+guardas arrastaram o homem esfarrapado até o toco de pau-ferro no centro da praça. Empurraram-lhe a cabeça à força contra a madeira dura e negra. Lorde Eddard Stark desmontou, e seu 
 protegido, Theon Greyjoy, apresentou-lhe a espada. Chamavam Gelo àquela espada. Era larga 
 como a mão de um homem e mais alta do que Robb. A lâmina era de aço valiriano, forjado com 
 feitiços e escuro como fumo. Nada mantinha o fio como o aço valiriano. 
@@ -616,8 +613,7 @@ Jory pôs-se ao lado de Bran e do pai.
 - Problemas, senhor? 
 
 - Sem nenhuma dúvida - disse o senhor seu pai. - Vamos, vamos ver que velhacaria 
-desenterraram agora os meus filhos - pôs o cavalo a trote. Jory, Bran e o resto do grupo seguiram- 
-no. 
+desenterraram agora os meus filhos - pôs o cavalo a trote. Jory, Bran e o resto do grupo seguiram-no. 
 
 Encontraram Robb na margem do rio, ao norte da ponte, com Jon ainda montado ao seu lado. As 
 neves do fim do verão tinham sido pesadas naquela volta da lua. Robb estava enterrado em branco 
@@ -673,16 +669,14 @@ Theon Greyjoy disse:
 - Vejo um agora - respondeu Jon. 
 
 Bran desviou os olhos do monstro. Foi então que reparou no fardo que estava nos braços de 
-Robb. Soltou um grito de deleite e aproximou-se. O filhote era uma minúscula bola de pelo cinza- 
-escuro, ainda com os olhos fechados. Batia cegamente com o focinho contra o peito de Robb, 
+Robb. Soltou um grito de deleite e aproximou-se. O filhote era uma minúscula bola de pelo cinza-escuro, ainda com os olhos fechados. Batia cegamente com o focinho contra o peito de Robb, 
 procurando leite nos couros que o cobriam, soltando um pequeno som lamentoso e triste. Bran 
 estendeu uma mão hesitante. 
 
 - Vamos - disselhe Robb. - Pode tocá-lo. 
 
 Bran fez um afago rápido e nervoso no filhote e depois se virou quando Jon disse: - Ora, veja 
-aqui - seu meio-irmão pôs um segundo filhote em seus braços. - Há cinco ao todo - Bran sentou- 
-se na neve e abraçou a cria de lobo, encostando-a ao rosto. O pelo do animal era macio e morno. 
+aqui - seu meio-irmão pôs um segundo filhote em seus braços. - Há cinco ao todo - Bran sentou-se na neve e abraçou a cria de lobo, encostando-a ao rosto. O pelo do animal era macio e morno. 
 
 - Lobos gigantes à solta no reino depois de tantos anos - murmurou Hullen, o mestre dos 
 cavalos. - Não me agrada. 
@@ -804,8 +798,7 @@ Winterfell.
 
 Foi só depois de terem montado e de se terem posto a caminho que Bran se permitiu saborear o 
 doce ar da vitória. Nessa altura, seu filhote estava aconchegado entre seus couros, quente contra 
-seu corpo, a salvo durante a longa viagem para casa. Bran perguntava-se como haveria de chamá- 
-lo. 
+seu corpo, a salvo durante a longa viagem para casa. Bran perguntava-se como haveria de chamá-lo. 
 
 No meio da ponte, Jon puxou subitamente as rédeas. 
 
@@ -835,15 +828,14 @@ Jon Snow deitou sobre o protegido de seu pai um olhar longo e gelado.
 
 
 
-$CHAPTER: Catelyn$ 
+$CHAPTER: Catelyn I$ 
 
 
 Catelyn nunca gostara daquele bosque sagrado. 
 
 
 Nascera entre os Tully, em Correrrio, mais ao Sul, nas margens do Ramo Vermelho do Tridente. 
-O bosque sagrado que havia ali era um jardim, luminoso e arejado, onde grandes árvores de pau- 
-brasil espalhavam sombras sarapintadas por córregos que rumorejavam entre as margens, as aves 
+O bosque sagrado que havia ali era um jardim, luminoso e arejado, onde grandes árvores de pau-brasil espalhavam sombras sarapintadas por córregos que rumorejavam entre as margens, as aves 
 cantavam em ninhos escondidos e o ar era perfumado pelo odor de flores. 
 
 Os deuses de Winterfell habitavam um tipo diferente de bosque. Era um lugar escuro e 
@@ -882,8 +874,7 @@ de alvorada, antes da chegada dos Primeiros Homens, vindos do mar estreito.
 
 No sul, os últimos represeiros tinham sido derrubados ou queimados havia mil anos, exceto na 
 Ilha das Caras, onde os homens verdes mantinham sua vigilância silenciosa e as coisas eram 
-diferentes. Aqui, cada castelo possuía seu bosque sagrado, e cada bosque sagrado tinha sua árvore- 
-coração, e cada árvore-coração, seu rosto. 
+diferentes. Aqui, cada castelo possuía seu bosque sagrado, e cada bosque sagrado tinha sua árvore-coração, e cada árvore-coração, seu rosto. 
 
 Catelyn encontrou o marido sob o represeiro, sentado numa pedra coberta de musgo. Tinha 
 Gelo, a espada, pousada sobre as coxas, e limpava-lhe a lâmina naquelas águas, negras como a 
@@ -1067,7 +1058,7 @@ homem. Maldito seja o seu real couro.
 
 
 
-$CHAPTER: Daenerys$
+$CHAPTER: Daenerys I$
 O irmão ergueu o vestido para que ela o 
 
 inspecionasse. 
@@ -1485,7 +1476,7 @@ Daenerys sorriu e se aprumou.
 
 
 
-$CHAPTER: Eddard$ 
+$CHAPTER: Eddard I$ 
 
 Os visitantes entraram pelos portões do castelo como um rio de ouro e prata e aço polido, 
 
@@ -1877,7 +1868,7 @@ eles escutavam. E o inverno estava chegando.
 
 
 
-$CHAPTER: Jon$ 
+$CHAPTER: Jon I$ 
 
 
 Havia momentos — não muitos, mas alguns — em que Jon Snow ficava feliz por ser um 
@@ -2236,7 +2227,7 @@ banquete, assobiando uma canção. Quando abriu a porta, a luz vinda de dentro a
 sua sombra bem definida e, por um momento, Tyrion Lannister ergueu-se alto como um rei. 
 
 
-$CHAPTER: Catelyn$
+$CHAPTER: Catelyn II$
 Entre todos os quartos da Torre Grande de 
 Winterfell, os aposentos de Catelyn eram os mais quentes. 
 Ela raramente tinha de acender uma fogueira. O castelo 
@@ -2681,7 +2672,7 @@ próximo, e o da infância também. Quando o momento certo chegar, comunicarei a
 
 
 
-$CHAPTER: Arya$
+$CHAPTER: Arya I$
 Os pontos de Arya estavam de novo tortos. 
 
 Franziu a sobrancelha, desapontada, e olhou de relance para onde a irmã Sansa estava entre as 
@@ -3037,7 +3028,7 @@ Mordane e sua mãe.
 
 
 
-$CHAPTER: Bran$ 
+$CHAPTER: Bran II$ 
 
 
 Os caçadores partiram de madrugada. O rei desejava javali para o festim da noite. Príncipe 
@@ -3407,7 +3398,7 @@ Em algum lugar, a distância, um lobo uivava. Corvos voavam em círculos sobre a
 quebrada, esperando por milho. 
 
 
-$CHAPTER: Tyrion$
+$CHAPTER: Tyrion I$
 Em algum lugar no grande labirinto de pedra de 
 Winterfell um lobo uivou. O som pairou sobre o castelo 
 
@@ -3692,7 +3683,7 @@ empurrar tudo para baixo e dirigiu a Jaime um sorriso de lobo.
 família. 
 
 
-$CHAPTER: Jon$
+$CHAPTER: Jon II$
 Jon subiu os degraus lentamente, tentando não pensar 
 que aquela podia ser a última vez. Fantasma caminhava em 
 silêncio ao seu lado. Lá fora, a neve rodopiava através dos 
@@ -4626,13 +4617,13 @@ fortuna e a honra sujeitas às minhas.
 
 - Tal como estavam sujeitas às de Aerys Targaryen - Ned ressaltou. 
 
-- Por que haveria de desconfiar dele? Pez tudo que lhe pedi. Sua espada ajudou a conquistar o 
+- Por que haveria de desconfiar dele? Fez tudo que lhe pedi. Sua espada ajudou a conquistar o 
 trono em que me sento. 
 
 Sua espada ajudou a manchar o trono em que se senta, pensou Ned, mas não permitiu que as 
 palavras lhe atravessassem os lábios. 
 
-- Pez o juramento de proteger a vida do rei com a dele próprio. Depois abriu a garganta desse 
+- Fez o juramento de proteger a vida do rei com a dele próprio. Depois abriu a garganta desse 
 mesmo rei com uma espada. 
 
 - Pelos sete infernos, alguém tinha de matar Aerys! - disse Robert, puxando as rédeas de sua 
@@ -5601,11 +5592,11 @@ uma mulher sozinha.
 - Dois cavaleiros podem deslocar-se tão depressa como um, e bem mais depressa do que uma 
 longa coluna sobrecarregada com carroças e casas rolantes. Aceito sua companhia, Sor Rodrik. 
 Seguiremos o Faca Branca até o mar e alugaremos um navio em Porto Branco. Com cavalos fortes 
-e ventos vivos, deveremos chegar a Porto Real bem antes de Ned e dos Lannister —e então, 
+e ventos vivos, deveremos chegar a Porto Real bem antes de Ned e dos Lannister — e então, 
 pensou, veremos o que tivermos de ver. 
 
 
-$CHAPTER: Sansa$
+$CHAPTER: Sansa I$
 Septã Mordane informou Sansa, durante o desjejum, 
 que Eddard Stark partira antes da madrugada. 
 
@@ -8362,7 +8353,7 @@ Mormont ainda arquejava, tentando recuperar o fôlego. Tyrion deu-lhe uma palmad
 
 Por fim, o Senhor Comandante venceu o engasgo. 
 
-- É um homem maldoso por provocar Sor Alliser assim- censurou. 
+- É um homem maldoso por provocar Sor Alliser assim - censurou. 
 
 Tyrion sentou-se e bebeu um trago de vinho. 
 
@@ -9677,11 +9668,6 @@ inchaço na barriga de Dany e disse: - Khaleesi, está à espera de um bebê.
 Isso aconteceu no décimo quarto dia do seu nome. 
 
 
-
-1 Criatura mitológica com cabeça de homem e corpo de leão. (N. T.) 
-
-
-
 $CHAPTER: Bran IV$ 
 
 
@@ -9919,7 +9905,7 @@ outro, verde, e ambos o olhavam, estudando-o, pesando-o.
 - Disseram-me que era um belo escalador, Bran - disse o homenzinho. - Diga-me, como caiu 
 naquele dia? 
 
-- Eu não caí- insistiu Bran. Ele nunca caía, nunca, nunca, nunca. 
+- Eu não caí - insistiu Bran. Ele nunca caía, nunca, nunca, nunca. 
 
 - O garoto não se recorda nada da queda, nem da escalada que a precedeu - disse Meistre Luwin 
 
@@ -11424,7 +11410,7 @@ homem que procuravam encontrava-se no ponto mais alto da colina, numa enorme cas
 madeira e estuque, cujos andares superiores pairavam por cima da rua estreita. As portas duplas 
 mostravam uma cena de caça esculpida em ébano. Um par de cavaleiros de pedra montava guarda 
 à entrada, envergando armaduras extravagantes de aço vermelho polido que os transformavam 
-num grifo- e num unicórnio. Ned deixou o cavalo com Jacks e abriu caminho à força de seu ombro 
+num grifo - e num unicórnio. Ned deixou o cavalo com Jacks e abriu caminho à força de seu ombro 
 até o interior. 
 
 A jovem e esbelta criada deu uma rápida olhadela no distintivo de Ned e no símbolo em seu 
@@ -11595,9 +11581,6 @@ Seus guardas esperavam lá fora com os cavalos.
 
 - Encontrei - disselhe Ned, sentindo-se curioso. O que teria Jon Arryn querido de um bastardo 
 real e por que isso teria valido sua vida? 
-
-3 Animal com cabeça, bico e asas de águia e corpo de leão. Ser fabuloso, como o unicórnio. (N. T.) 
-
 
 
 $CHAPTER: Catelyn V$ 
@@ -11989,9 +11972,6 @@ que o capturem e me ajudem a devolvê-lo a Winterfell, onde esperará a justiça
 
 Não saberia dizer o que lhe deu maior satisfação: se o som de uma dúzia de espadas a serem 
 empunhadas como uma só, ou se a expressão no rosto de Tyrion Lannister. 
-
-4 Poema narrativo lírico tocado em harpa ou viola. (N. T.) 
-
 
 
 $CHAPTER: Sansa II$ 
@@ -12543,7 +12523,7 @@ esmeralda da rainha.
 - Ah, gostaria de estar lá para ver a cara de Santagar - disse Robert. - Espero que tenha a 
 esperteza de enviá-los a outra pessoa qualquer. Deveríamos mantê-los correndo o dia inteiro! 
 
-- Aqueles rapazes - Ned lhe perguntou- são Lannister? 
+- Aqueles rapazes - Ned lhe perguntou - são Lannister? 
 
 Robert assentiu, limpando as lágrimas dos olhos. 
 
@@ -18274,7 +18254,7 @@ preço por seus crimes. Fora para lá livremente, e assim poderia partir... até
 precisava avançar, e deixaria tudo para trás. Quando a lua cheia voltasse, estaria de novo em 
 Winterfell com os irmãos. 
 
-Com os meios- irmãos, lembrou-lhe uma voz interior. E com a Senhora Stark, que não lhe dará 
+Com os meios-irmãos, lembrou-lhe uma voz interior. E com a Senhora Stark, que não lhe dará 
 as boas-vindas. Não havia lugar para ele em Winterfell, e também não o havia em Porto Real. 
 Nem sequer a própria mãe tivera lugar para ele. Pensar nela o deixou triste. Quis saber quem ela 
 era, qual era seu aspecto, por que o pai a abandonara. Porque era uma prostituta ou uma adúltera, 
@@ -31303,7 +31283,7 @@ O pai franziu as sobrancelhas.
 
 - Desde o princípio sinto que Stannis é maior ameaça do que todos os outros juntos. E, no 
 entanto, não faz nada. Ah, Varys ouve os seus sussurros. Que Stannis está construindo navios, que 
-Stannis está contratando mercenários, que Stannis mandou vir um umbromante- de Asshai. Que 
+Stannis está contratando mercenários, que Stannis mandou vir um umbromante de Asshai. Que 
 significa isso? Será alguma parte verdade? - encolheu os ombros, irritado. - Kevan, traga o mapa. 
 
 Sor Kevan fez o que lhe foi pedido. Lorde Tywin desenrolou o couro, alisando-o. 
@@ -31455,8 +31435,7 @@ gigante, imensa e negra.
 
 - Não fará. Precisa me ouvir. Por favor... 
 
-Jon enterrou as esporas na carne da égua, que saltou para a porta. Por um instante Sam manteve- 
-se imóvel, com o rosto tão redondo e pálido como a lua que tinha atrás, a boca transformada num 
+Jon enterrou as esporas na carne da égua, que saltou para a porta. Por um instante Sam manteve-se imóvel, com o rosto tão redondo e pálido como a lua que tinha atrás, a boca transformada num 
 O de perplexidade que se alargava. No último momento, quando já estavam quase sobre ele, saltou 
 para o lado como Jon soubera que faria, tropeçou e caiu. A égua saltou sobre ele, penetrando na 
 noite. 
@@ -31501,8 +31480,7 @@ facilitada. Tinham seus septões com quem falar, alguém para lhes desvendar a v
 e os ajudar a distinguir o bem do mal. Mas os Stark adoravam os velhos deuses, os deuses sem 
 nome, e se as árvores-coração ouviam, não falavam. 
 
-Quando as últimas luzes de Castelo Negro desapareceram atrás dele, Jon refreou a égua, pondo- 
-a a trote. Tinha uma longa viagem à sua frente e só aquele cavalo para transportá-lo. Havia 
+Quando as últimas luzes de Castelo Negro desapareceram atrás dele, Jon refreou a égua, pondo-a a trote. Tinha uma longa viagem à sua frente e só aquele cavalo para transportá-lo. Havia 
 fortificações e aldeias de agricultores ao longo do caminho para o sul, onde conseguiria trocar a 
 égua por uma montaria descansada quando precisasse de uma, mas não se estivesse ferida ou 
 arrebentada. 
@@ -31627,8 +31605,7 @@ estava ácida e suculenta. Já chegara ao caroço quando ouviu os sons: cavalos,
 Rapidamente, Jon saltou e correu para a égua. Poderia fugir? Não, estavam perto demais, 
 certamente os ouviriam, e se viessem de Castelo Negro... 
 
-Levou a égua para longe da estrada, para trás de uma espessa mata de árvores-sentinela cinza- 
-esverdeadas. 
+Levou a égua para longe da estrada, para trás de uma espessa mata de árvores-sentinela cinza-esverdeadas. 
 
 - Agora silêncio - disse, numa voz abafada, agachando-se a fim de espreitar por entre os 
 galhos. Se os deuses fossem bondosos, os cavaleiros passariam sem detectá-lo. O mais provável 
@@ -31805,8 +31782,7 @@ Pyp saltou do cavalo e olhou para o céu que clareava, descontente.
 - Ajude-nos a cuidar dos cavalos, Sam - disse o pequeno rapaz. - Temos um longo dia pela 
 frente e nenhum descanso para enfrentá-lo, graças a Lorde Snow. 
 
-Quando o dia rompeu, Jon dirigiu-se às cozinhas como fazia todas as madrugadas. Hobb Três- 
-Dedos não lhe disse nada quando lhe deu a refeição matinal do Velho Urso. Naquele dia eram três 
+Quando o dia rompeu, Jon dirigiu-se às cozinhas como fazia todas as madrugadas. Hobb Três-Dedos não lhe disse nada quando lhe deu a refeição matinal do Velho Urso. Naquele dia eram três 
 ovos vermelhos cozidos, com pão frito, uma fatia de presunto e uma tigela de ameixas secas. Jon 
 levou a comida para a Torre do Rei. Foi encontrar Mormont no banco da janela, escrevendo. O 
 corvo caminhava de um lado para o outro por cima de seus ombros, resmungando “Grão, grão, 
@@ -31948,11 +31924,7 @@ As palavras fizeram com que as costas de Jon se arrepiassem de excitação.
 
 - Você ouviu o que eu disse. Pretendo encontrar Ben Stark, vivo ou morto - mastigou e engoliu. 
 - Não vou ficar aqui docilmente sentado à espera das neves e dos ventos gelados. Temos de saber 
-o que está acontecendo. Dessa vez, a Patrulha da Noite avançará em força, contra o Rei-para-lá- 
-
-
-
-da-Muralha, os Outros, ou seja o que for que se encontre por lá. Pretendo ser eu mesmo a 
+o que está acontecendo. Dessa vez, a Patrulha da Noite avançará em força, contra o Rei-para-lá-da-Muralha, os Outros, ou seja o que for que se encontre por lá. Pretendo ser eu mesmo a 
 comandá-los - apontou o punhal para o peito de Jon. - Segundo o costume, o intendente do Senhor 
 Comandante é também o seu escudeiro... mas não pretendo acordar todas as manhãs perguntando 
 a mim mesmo se terá fugido de novo. Por isso quero uma resposta de você. Lorde Snow, e quero-a 
