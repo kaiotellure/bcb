@@ -1,9 +1,10 @@
-to parse, interpret and render an `input.txt` file to an `out.html` file, run:
-```cli
-bookify.exe render ./texts/revision.txt
+# Building
+```bash
+# or just bcb for linux
+go build -o bcb.exe
 ```
 
-regex to find random spaces after a dash:
-```
-[^\s\n]-\s
+# Default Usage
+```bash
+bcb render ./texts/got-revision.txt
 ```
