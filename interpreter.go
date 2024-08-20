@@ -13,8 +13,11 @@ type HTMLInterpreter struct {
 
 func (i *HTMLInterpreter) GetDocument() string {
 	return remap(map[string]string{
-		"$$LOGO$$":  dataUri("./assets/images/logo.png", "image/jpg"),
-		"$$LINES$$": i.lines,
+		"$$LOGO$$":       dataUri("./assets/images/logo.png", "image/jpg"),
+		"$$BACKGROUND$$": dataUri("./assets/images/background.jpg", "image/jpeg"),
+		"$$FONTREGULAR$$": dataUri("./assets/fonts/main_regular.woff2", "font/woff2"),
+		"$$FONTBOLD$$": dataUri("./assets/fonts/main_bold.woff2", "font/woff2"),
+		"$$LINES$$":      i.lines,
 	}, readFile("./assets/template.html"))
 }
 

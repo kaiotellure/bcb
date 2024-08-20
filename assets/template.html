@@ -8,11 +8,14 @@
 </head>
 
 <body class="list gap-long">
+
+    <img src="$$BACKGROUND$$" id="background">
+
     <div class="list text-small">
-        <span class="muted">Créditos: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte, Bei Ribeiro, André
+        <span class="muted">Créditos do Matérial Original: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte, Bei Ribeiro, André
             Albert, Ricardo Nakamiti, Osmane Garcia Filho, Marc Simonetti, Jorge Candeias e EDITORA: Leya.</span>
         <span class="muted">
-            Dica: Selecione uma nome ou palavra para ir à Wiki ou ao Google. (CTRL impede a pesquisa)<br />
+            Dica: Selecione um nome ou palavra para ir à Wiki ou ao Google. (segurar CTRL impede a pesquisa)<br />
             Dica: Clique no número à esquerda da linha para salva-lá como ponto de retorno.
         </span>
         <span class="muted">
@@ -24,6 +27,14 @@
     <div class="list reader">
         $$LINES$$
     </div>
+    <pre>
+        Versão 05 em 20/8/2024:
+            Adicionado: plano de fundo, (esta) seção de mudanças.
+            Corrigido: erros de grafia nas dicas.
+
+        Fonte: General Sans por Frode Helland.
+        Ferramentas de transpilação e labeling, Revisão & Design por Kaio Tellure.
+    </pre>
 </body>
 
 <script defer>
@@ -60,11 +71,40 @@
 </script>
 
 <style>
+    @font-face {
+        font-family: 'Main';
+        src: url('$$FONTREGULAR$$') format('woff2');
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Main';
+        src: url('$$FONTBOLD$$') format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+    }
+
     body {
-        background: rgb(20, 20, 20);
-        color: white;
-        font-family: sans-serif;
         padding: 5vh 10vw;
+        background: rgb(15, 15, 15);
+        color: white;
+    }
+
+    * {
+        font-family: Main, sans-serif;
+    }
+
+    #background {
+        position: fixed;
+        z-index: -10;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: .05;
     }
 
     .list {
@@ -121,7 +161,6 @@
 
     .chapter span {
         text-transform: uppercase;
-        font-family: serif;
         font-weight: bold;
         white-space: nowrap;
     }
