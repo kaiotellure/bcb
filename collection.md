@@ -1,3 +1,0 @@
-- A Song of Ice and Fire
-    - A Game of Thrones
-        - PT-BR v05: [Download](https://www.mediafire.com/file/4bbop8sc1vlicw3)

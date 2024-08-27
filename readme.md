@@ -10,4 +10,8 @@ bcb render ./path/to/your/raw-book.txt
 
 before releasing, minify your `out.html` file, you can use [this tool by tdewolff](https://github.com/tdewolff/minify/releases/latest).
 
-check out my public collection with my favorites: [collection.md](./collection.md)
+generate www:
+````bash
+# cd into it first
+pandoc --toc -s --css reset.css --css index.css -i index.md template.html -o index.html --template=template.html
+```
