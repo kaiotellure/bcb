@@ -13,7 +13,7 @@ type Parser struct {
 }
 
 type Interpreter interface {
-	Feed(line string)
+	report(kind, value string)
 }
 
 func NewParser(content string, interpreter Interpreter) *Parser {
@@ -35,7 +35,7 @@ func (p *Parser) cut() {
 	if len(p.clip) == 0 {
 		return
 	}
-	p.interpreter.Feed(p.clip)
+	p.interpreter.report("cut", p.clip)
 	p.clip = EMPTY_STRING
 }
 

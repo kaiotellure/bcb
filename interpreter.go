@@ -5,10 +5,11 @@ import (
 	"strings"
 )
 
+var alternate bool
+
 type HTMLInterpreter struct {
 	lines      string
 	line_count int
-	odd        bool
 }
 
 func NewHTMLInterpreter() *HTMLInterpreter {
@@ -29,28 +30,43 @@ func (i *HTMLInterpreter) insert(line string) {
 	i.lines += line
 }
 
-func (i *HTMLInterpreter) Feed(line string) {
-
-	if strings.HasPrefix(line, "$") {
-		command, args := parse_command(line)
-		switch command {
-		case "CHAPTER":
-			panicif(len(args) < 1, "chapter requires 1 arguments: "+line)
-			i.insert(html_chapter(args[0]))
-			return
-		default:
-			panic("unknown command: " + line)
-		}
+func (i *HTMLInterpreter) on_command(line string) bool {
+	command, args := parse_command(line)
+	switch command {
+	case "CHAPTER":
+		panicif(len(args) < 1, "chapter requires 1 arguments: "+line)
+		i.insert(html_chapter(args[0]))
+		return true // should return
+	default:
+		panic("unknown command: " + line)
 	}
+}
 
+func (i *HTMLInterpreter) on_line(line string) bool {
 	i.line_count++
 	index := html_index(strconv.Itoa(i.line_count))
 
-	if i.odd = !i.odd; i.odd {
-		i.insert(f("<div class=\"line muted\">%s%s</div>\n", index, line))
-		return
+	var muted string
+	if alternate = !alternate; alternate {
+		muted = " muted"
 	}
-	i.insert(f("<div class=\"line\">%s%s</div>\n", index, line))
+
+	i.insert(f("<div class=\"line%s\">%s%s</div>\n", muted, index, line))
+	return false
+}
+
+func (i *HTMLInterpreter) report(kind, value string) {
+	switch kind {
+	case "cut":
+		if strings.HasPrefix(value, "$") {
+			if i.on_command(value) {
+				return
+			}
+		}
+		if i.on_line(value) {
+			return
+		}
+	}
 }
 
 func parse_command(line string) (string, []string) {

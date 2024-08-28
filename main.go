@@ -17,14 +17,10 @@ func main() {
 		interpreter := NewHTMLInterpreter()
 		NewParser(content, interpreter).Process()
 
-		os.WriteFile("out.html", []byte(interpreter.GetDocument()), 0644)
-		fmt.Println("render completed: out.html")
-	case "debug":
-		interpreter := NewHTMLInterpreter()
-		NewParser(content, interpreter).Process()
+		err := os.WriteFile("out.html", []byte(interpreter.GetDocument()), 0766)
+		panicif(err != nil, "could not write to file.")
 
-		os.WriteFile("debug.html", []byte(interpreter.GetDocument()), 0644)
-		fmt.Println("render completed: debug.html")
+		fmt.Println("render completed: out.html")
 	default:
 		panic("no command provided.")
 	}
