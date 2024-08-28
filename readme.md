@@ -12,5 +12,5 @@ before releasing, minify your `out.html` file, you can use [this tool by tdewolf
 
 generate `docs` using `pandoc`:
 ```bash
-pandoc --toc -s --css reset.css --css index.css -i index.md template.html -o index.html --template=template.html
+pandoc -s --css reset.css --css index.css -i index.md -o index.html --template=template.html
 ```

@@ -5,20 +5,13 @@ email: todo@todo.todo
 version: 0.1.0
 ---
 
-disclaimer: first buy the books to support the authors, once you have a physical copy download our digital ones if you find them better to read.
+DISCLAIMER: buy the books first to support the amazing work of the authors, once you have a physical copy then download our digital ones if you're in a place where you can't reach it or if you find them a bit more comfortable to read.
 
-## Most Popular
+tip: press `CTRL + S` to save a book and read offline. (`CMD + S` on macos)
 
-<details>
-<summary>A Song of Ice And Fire: A Game of Thrones</summary>
-English: [DOWNLOAD](https://www.mediafire.com/file/TODO) [READ NOW](./books/TODO.htm)</br>
-Português: [DOWNLOAD (3.23MB)](https://www.mediafire.com/file/4bbop8sc1vlicw3) [READ NOW](./books/As%20Crônicas%20de%20Gelo%20e%20Fogo%20-%20A%20Guerra%20dos%20Tronos%20BCB%20PT-BR.htm)
-</details>
+## Currently Available Books
 
-<details>
-<summary>A Song of Ice And Fire: A Clash of Kings</summary>
-English: [DOWNLOAD](https://www.mediafire.com/file/TODO) [READ NOW](./books/TODO.htm)</br>
-Português: [DOWNLOAD (3.23MB)](https://www.mediafire.com/file/TODO) [READ NOW](./books/TODO.htm)
-</details>
+- [PT-BR: As Crônicas de Gelo e Fogo: A Guerra dos Tronos](./books/As%20Crônicas%20de%20Gelo%20e%20Fogo%20-%20A%20Guerra%20dos%20Tronos%20BCB%20PT-BR.htm)
 
-website made using: owickstrom's [monospace web](https://github.com/owickstrom/the-monospace-web)
+<hr>
+website made using [owickstrom](https://wickstrom.tech)'s [monospace web](https://github.com/owickstrom/the-monospace-web)
