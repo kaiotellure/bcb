@@ -11,19 +11,18 @@ type HTMLInterpreter struct {
 	odd        bool
 }
 
-func (i *HTMLInterpreter) GetDocument() string {
-	return remap(map[string]string{
-		"$$LOGO$$":       dataUri("./assets/images/logo.png", "image/jpg"),
-		"$$BACKGROUND$$": dataUri("./assets/images/background.jpg", "image/jpeg"),
-		"$$FONTREGULAR$$": dataUri("./assets/fonts/main_regular.woff2", "font/woff2"),
-		"$$FONTBOLD$$": dataUri("./assets/fonts/main_bold.woff2", "font/woff2"),
-		"$$LINES$$":      i.lines,
-	}, readFile("./assets/template.html"))
+func NewHTMLInterpreter() *HTMLInterpreter {
+	return &HTMLInterpreter{}
 }
 
-func (i *HTMLInterpreter) parseCommand(line string) (string, []string) {
-	splitted := strings.Split(line, ":")
-	return splitted[0][1:], splitted[1:]
+func (i *HTMLInterpreter) GetDocument() string {
+	return remap(map[string]string{
+		"$$LOGO$$":        dataUri("./assets/images/logo.png", "image/jpg"),
+		"$$BACKGROUND$$":  dataUri("./assets/images/background.jpg", "image/jpeg"),
+		"$$FONTREGULAR$$": dataUri("./assets/fonts/main_regular.woff2", "font/woff2"),
+		"$$FONTBOLD$$":    dataUri("./assets/fonts/main_bold.woff2", "font/woff2"),
+		"$$LINES$$":       i.lines,
+	}, readFile("./assets/template.html"))
 }
 
 func (i *HTMLInterpreter) insert(line string) {
@@ -33,11 +32,11 @@ func (i *HTMLInterpreter) insert(line string) {
 func (i *HTMLInterpreter) Feed(line string) {
 
 	if strings.HasPrefix(line, "$") {
-		command, args := i.parseCommand(line)
+		command, args := parse_command(line)
 		switch command {
 		case "CHAPTER":
 			panicif(len(args) < 1, "chapter requires 1 arguments: "+line)
-			i.insert(i.uiChapter(args[0]))
+			i.insert(html_chapter(args[0]))
 			return
 		default:
 			panic("unknown command: " + line)
@@ -45,15 +44,18 @@ func (i *HTMLInterpreter) Feed(line string) {
 	}
 
 	i.line_count++
-	id := strconv.Itoa(i.line_count)
-
-	index := f("<a id=\"%s\" href=\"javascript:save(%s)\" class=\"index\">%s</a>", id, id, id)
+	index := html_index(strconv.Itoa(i.line_count))
 
 	if i.odd = !i.odd; i.odd {
 		i.insert(f("<div class=\"line muted\">%s%s</div>\n", index, line))
 		return
 	}
 	i.insert(f("<div class=\"line\">%s%s</div>\n", index, line))
+}
+
+func parse_command(line string) (string, []string) {
+	splitted := strings.Split(line, ":")
+	return splitted[0][1:], splitted[1:]
 }
 
 const CHAPTER_MODEL = `
@@ -64,9 +66,16 @@ const CHAPTER_MODEL = `
 	<img style="width: 5vw; rotate: 180deg;" src="$$ORNAMENT$$">
 </div>`
 
-func (i *HTMLInterpreter) uiChapter(title string) string {
+func html_chapter(title string) string {
 	return remap(map[string]string{
 		"$$TITLE$$":    title,
 		"$$ORNAMENT$$": dataUri("./assets/images/ornament.svg", "image/svg+xml"),
 	}, CHAPTER_MODEL)
+}
+
+func html_index(id string) string {
+	return f(
+		"<a id=\"%s\" href=\"javascript:save(%s)\" class=\"index\">%s</a>",
+		id, id, id,
+	)
 }
