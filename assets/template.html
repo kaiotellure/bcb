@@ -7,12 +7,11 @@
     <title>As Crônicas de Gelo e Fogo - A Guerra dos Tronos</title>
 </head>
 
-<body class="list gap-long">
+<body class="list">
 
-    <img src="$$BACKGROUND$$" id="background">
-
-    <div class="list text-small">
-        <span class="muted">Créditos do Matérial Original: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte, Bei Ribeiro, André
+    <div class="list">
+        <span class="muted">Créditos do Matérial Original: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte,
+            Bei Ribeiro, André
             Albert, Ricardo Nakamiti, Osmane Garcia Filho, Marc Simonetti, Jorge Candeias e EDITORA: Leya.</span>
         <span class="muted">
             Dica: Selecione um nome ou palavra para ir à Wiki ou ao Google. (segurar CTRL impede a pesquisa)<br />
@@ -22,15 +21,17 @@
             <a target="_blank" href="https://kaiotellure.github.io/browsercompactbook/">Mais Livros</a> —
             <a target="_blank" href="https://i.redd.it/5sru7d8owzh21.jpg">Mapa de Westeros (4K)</a>
         </span>
-        <img id="logo" src="$$LOGO$$">
+        <img class="mt" id="logo" src="$$LOGO$$">
     </div>
-    <div class="list reader">
+
+    <div class="list reader text-large">
         $$LINES$$
     </div>
-    <pre>
-        Ferramentas de transpilação e labeling, Revisão & Design por Kaio Tellure.
+
+    <span class="muted">
+        Ferramentas de transpilação e labeling, Revisão & Design por Kaio Tellure.</br>
         Fonte: General Sans por Frode Helland para Indian Type Foundry.
-    </pre>
+    </span>
 </body>
 
 <script defer>
@@ -68,7 +69,7 @@
 
 <style>
     @font-face {
-        font-family: 'Main';
+        font-family: 'main';
         src: url('$$FONTREGULAR$$') format('woff2');
         font-weight: 400;
         font-display: swap;
@@ -76,31 +77,71 @@
     }
 
     @font-face {
-        font-family: 'Main';
+        font-family: 'main';
         src: url('$$FONTBOLD$$') format('woff2');
         font-weight: 700;
         font-display: swap;
         font-style: normal;
     }
 
+    :root {
+        --background: #000a12;
+        --color-misc: white;
+        --color-reader: khaki;
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --background: #fffff1;
+            --color-misc: black;
+            --color-reader: #1b002d;
+        }
+
+        #logo {
+            filter: invert();
+        }
+    }
+
+    path {
+        stroke: var(--color-reader);
+    }
+
     body {
-        padding: 5vh 10vw;
-        background: rgb(15, 15, 15);
-        color: white;
+        padding: 5vh calc(1% + 2.5vw);
+        background: var(--background);
+        color: var(--color-misc);
     }
 
     * {
-        font-family: Main, sans-serif;
+        font-family: main, sans-serif;
     }
 
-    #background {
-        position: fixed;
-        z-index: -10;
+    #logo {
+        width: 464px;
+        max-width: 90%;
+    }
+
+    .chapter {
+        margin: 2vh 0;
+        gap: 1vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .chapter #separator {
+        height: 1px;
         width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        opacity: .05;
+        background: var(--color-reader);
+    }
+
+    .chapter svg {
+        width: auto;
+        height: 1.75em;
+    }
+
+    .chapter svg:last-child {
+        rotate: 180deg;
     }
 
     .list {
@@ -109,45 +150,20 @@
         gap: 2vh;
     }
 
-    .queue {
-        display: flex;
-        gap: 2vw;
-    }
-
-    .gap-long {
-        gap: 5vh;
-    }
-
-    .line,
-    .text,
-    a {
-        color: khaki;
+    .line, a, .chapter span {
+        color: var(--color-reader);
         text-decoration: none;
     }
 
-    .line,
-    .text {
-        font-size: 1.6rem;
+    .mr {
+        margin-right: 2vw;
     }
-
-    .index {
-        font-size: 1rem;
-        font-weight: bold;
-        opacity: 0.25;
-        margin: 0 1vw;
+    .mt {
+        margin-top: 2vh;
     }
 
     .muted {
         opacity: 0.5;
-    }
-
-    #logo {
-        width: 30vw;
-        margin-top: 5vh;
-    }
-
-    .text-small {
-        font-size: 1rem;
     }
 
     .line {
@@ -155,10 +171,16 @@
         align-items: baseline;
     }
 
-    .chapter span {
+    .uppercase {
         text-transform: uppercase;
+    }
+
+    .bold {
         font-weight: bold;
-        white-space: nowrap;
+    }
+
+    .text-large {
+        font-size: 1.75em;
     }
 </style>
 

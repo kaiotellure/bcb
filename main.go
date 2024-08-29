@@ -7,10 +7,15 @@ import (
 )
 
 func main() {
+	quick := flag.Bool("quick", false, "--quick limits content to 1000 chars, rendering fast. good for previewing style changes.")
 	flag.Parse()
 
 	fmt.Println("reading file: ", flag.Arg(1))
 	content := readFile(flag.Arg(1))
+	if *quick {
+		fmt.Println("quick mode: enabled.")
+		content = content[:1000]
+	}
 
 	switch flag.Arg(0) {
 	case "render":

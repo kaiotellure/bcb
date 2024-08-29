@@ -19,7 +19,6 @@ func NewHTMLInterpreter() *HTMLInterpreter {
 func (i *HTMLInterpreter) GetDocument() string {
 	return remap(map[string]string{
 		"$$LOGO$$":        dataUri("./assets/images/logo.png", "image/jpg"),
-		"$$BACKGROUND$$":  dataUri("./assets/images/background.jpg", "image/jpeg"),
 		"$$FONTREGULAR$$": dataUri("./assets/fonts/main_regular.woff2", "font/woff2"),
 		"$$FONTBOLD$$":    dataUri("./assets/fonts/main_bold.woff2", "font/woff2"),
 		"$$LINES$$":       i.lines,
@@ -75,23 +74,23 @@ func parse_command(line string) (string, []string) {
 }
 
 const CHAPTER_MODEL = `
-<div class="chapter" style="margin: 5vh 0; gap: 1vw; display: flex; justify-content: space-around; align-items: center;">
-	<img style="width: 5vw;" src="$$ORNAMENT$$">
-	<span class="text">$$TITLE$$</span>
-	<div style="height: 1px; width: 100%; background: khaki;"></div>
-	<img style="width: 5vw; rotate: 180deg;" src="$$ORNAMENT$$">
+<div class="chapter">
+	$$ORNAMENT$$
+	<span class="uppercase bold">$$TITLE$$</span>
+	<div id="separator"></div>
+	$$ORNAMENT$$
 </div>`
 
 func html_chapter(title string) string {
 	return remap(map[string]string{
 		"$$TITLE$$":    title,
-		"$$ORNAMENT$$": dataUri("./assets/images/ornament.svg", "image/svg+xml"),
+		"$$ORNAMENT$$": readFile("./assets/images/ornament.svg"),
 	}, CHAPTER_MODEL)
 }
 
 func html_index(id string) string {
 	return f(
-		"<a id=\"%s\" href=\"javascript:save(%s)\" class=\"index\">%s</a>",
+		"<a id=\"%s\" href=\"javascript:save(%s)\" class=\"bold muted mr\">%s</a>",
 		id, id, id,
 	)
 }
