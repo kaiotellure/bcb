@@ -76,7 +76,7 @@ func parse_command(line string) (string, []string) {
 const CHAPTER_MODEL = `
 <div class="chapter">
 	$$ORNAMENT$$
-	<span class="uppercase bold">$$TITLE$$</span>
+	<span class="uppercase bold nowrap">$$TITLE$$</span>
 	<div id="separator"></div>
 	$$ORNAMENT$$
 </div>`
