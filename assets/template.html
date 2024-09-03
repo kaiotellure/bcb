@@ -7,18 +7,20 @@
     <title>As Crônicas de Gelo e Fogo - A Guerra dos Tronos</title>
 </head>
 
-<body class="list">
+<body class="list gap-lg">
 
     <div class="list">
         <span class="muted">Créditos do Matérial Original: Pascoal Soto, Mariana Rolier, Suria Scapin, Márcia Duarte,
             Bei Ribeiro, André
             Albert, Ricardo Nakamiti, Osmane Garcia Filho, Marc Simonetti, Jorge Candeias e EDITORA: Leya.</span>
         <span class="muted">
-            Dica: Selecione um nome ou palavra para ir à Wiki ou ao Google. (segurar CTRL impede a pesquisa)<br />
+            Dica: Selecione um nome ou palavra para ir à Wiki ou ao Google. (segurar CTRL impede a pesquisa) (permita
+            pop-ups no seu navegador!)<br />
             Dica: Clique no número à esquerda da linha para salva-lá como ponto de retorno.
         </span>
         <span class="muted">
             <a target="_blank" href="https://kaiotellure.github.io/browsercompactbook/">Mais Livros</a> —
+            <a target="_blank" href="https://x.com/kaiotellure">Reportar um Erro</a> —
             <a target="_blank" href="https://i.redd.it/5sru7d8owzh21.jpg">Mapa de Westeros (4K)</a>
         </span>
         <img class="mt" id="logo" src="$$LOGO$$">
@@ -63,8 +65,10 @@
         gotoline(index);
     }
 
-    const last_line = localStorage.getItem("current_line");
-    if (last_line) gotoline(last_line);
+    setTimeout(() => {
+        const last_line = localStorage.getItem("current_line");
+        if (last_line) gotoline(last_line);
+    }, 1000);
 </script>
 
 <style>
@@ -85,14 +89,14 @@
     }
 
     :root {
-        --background: #000a12;
+        --background: #0d0d0d;
         --color-misc: white;
         --color-reader: khaki;
     }
 
     @media (prefers-color-scheme: light) {
         :root {
-            --background: #fffff1;
+            --background: #fffff9;
             --color-misc: black;
             --color-reader: #1b002d;
         }
@@ -150,7 +154,9 @@
         gap: 2vh;
     }
 
-    .line, a, .chapter span {
+    .line,
+    a,
+    .chapter span {
         color: var(--color-reader);
         text-decoration: none;
     }
@@ -158,6 +164,7 @@
     .mr {
         margin-right: 2vw;
     }
+
     .mt {
         margin-top: 2vh;
     }
@@ -169,6 +176,7 @@
     .line {
         display: flex;
         align-items: baseline;
+        text-justify: auto;
     }
 
     .uppercase {
@@ -185,6 +193,10 @@
 
     .nowrap {
         white-space: nowrap;
+    }
+
+    .gap-lg {
+        gap: 8vh;
     }
 </style>
 
